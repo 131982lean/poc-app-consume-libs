@@ -1,3 +1,5 @@
-import {  multiplicar, suma } from 'poc-lib-shared';
+const { multiplicar, suma, } = require('poc-lib-shared');
+const { potencia } = require('poc-lib-shared-pow');
 
-console.log(multiplicar(8, 3));  
+console.log(multiplicar(2, 3));
+console.log(potencia(8, 3));
